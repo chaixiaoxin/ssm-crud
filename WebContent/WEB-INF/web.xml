@@ -6,7 +6,7 @@
 	<!-- 配置Spring容器的启动applicationContext.xml -->
 	<context-param>
 		<param-name>contextConfiglocation</param-name>
-		<param-value>classpath*:config/applicationContext.xml</param-value>
+		<param-value>/ssm-crud/src/main/resources/dispatcherServlet-servlet.xml</param-value>
 	</context-param>
 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
